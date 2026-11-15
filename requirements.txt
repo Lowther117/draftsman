@@ -1,0 +1,7 @@
+# Every package here has a floor (the oldest version these scripts were
+# tested with) and a ceiling at the next major version. A new major is
+# something to opt into after a test build, never something a routine
+# rebuild discovers for you - PyMuPDF 2.0 broke two builds that way (Nov 2026).
+# All of these are needed, and all are pure Python or ship wheels everywhere.
+python-docx>=1.1,<2
+openpyxl>=3.1,<4

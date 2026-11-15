@@ -1,0 +1,26 @@
+# build scratch
+.venv/
+.venv-build/
+.venv-build-mac/
+build/
+dist/
+*.spec
+
+# build and run output
+build-win-log.txt
+build-mac-log.txt
+draftsman-selftest.txt
+draftsman-crash.log
+draftsman-settings.json
+draftsman-settings.json.tmp
+.draftsman-write-test
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# os
+.DS_Store
+Thumbs.db
+
